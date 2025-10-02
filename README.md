@@ -39,60 +39,60 @@ pip install -r requirements.txt
 
 1️⃣ Open Project in PyCharm
 
-Launch PyCharm.
+  Launch PyCharm.
 
-Go to File → Open.
+  Go to File → Open.
 
-Select your project folder (downloaded from repo) and click OK.
+  Select your project folder (downloaded from repo) and click OK.
 
 2️⃣ Create a Virtual Environment
 
-Go to File → Settings → Project: YourProjectName → Python Interpreter.
+  Go to File → Settings → Project: YourProjectName → Python Interpreter.
 
-Click the gear icon → Add.
+  Click the gear icon → Add.
 
-Select Virtualenv Environment:
+  Select Virtualenv Environment:
 
-New environment (recommended)
+  New environment (recommended)
 
-Location: leave default (e.g., .venv)
+  Location: leave default (e.g., .venv)
 
-Base interpreter: choose your Python 3.x installation
+  Base interpreter: choose your Python 3.x installation
 
-Click OK to create the virtual environment.
+  Click OK to create the virtual environment.
 
 3️⃣ Install Dependencies
 
-Open Terminal in PyCharm (bottom of IDE).
+  Open Terminal in PyCharm (bottom of IDE).
 
-Run:
-```
-pip install spotipy beautifulsoup4 requests python-dotenv
-```
+  Run:
+  ```
+  pip install spotipy beautifulsoup4 requests python-dotenv
+  ```
 
-Or, if you want, you can create a requirements.txt file (with these 4 libraries) and run:
-```
-pip install -r requirements.txt
-```
+  Or, if you want, you can create a requirements.txt file (with these 4 libraries) and run:
+  ```
+  pip install -r requirements.txt
+  ```
 
 4️⃣ Configure Run in PyCharm
 
-Go to Run → Edit Configurations → + → Python.
+  Go to Run → Edit Configurations → + → Python.
 
-Name it: Run House Rent Bot.
+  Name it: Run House Rent Bot.
 
-```
-Script path: main.py.
-```
-Python interpreter: select the virtualenv you created.
+  ```
+  Script path: main.py.
+  ```
+  Python interpreter: select the virtualenv you created.
 
-Working directory: project root.
+  Working directory: project root.
 
-Click OK.
+  Click OK.
 
 5️⃣ Run the Project
 
-Click the green Run button (top right) or press Shift + F10.
+  Click the green Run button (top right) or press Shift + F10.
 
 ---
 ## 📌 Usage
