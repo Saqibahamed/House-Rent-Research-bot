@@ -108,3 +108,20 @@ pip install -r requirements.txt
 
 2.After completion, Chrome will close automatically, and all results will be saved in the excel sheet which is linked with Google form
 
+---
+## ⚠️ Notes
+  - Make sure your Google Form fields match the XPaths in the code. Adjust if necessary.
+
+  - The script uses time.sleep and explicit waits to handle page load delays.
+
+  - ChromeDriver must match your Chrome version to avoid errors.
+
+---
+## 🙌 Credits
+- BeautifulSoup
+ for scraping
+
+- Selenium
+ for browser automation
+
+- Zillow clone site for demo data (App Brewery Zillow Clone)
